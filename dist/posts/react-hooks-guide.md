@@ -5,7 +5,7 @@ author: "React 개발자"
 category: "Tech"
 tags: ["React", "Hooks", "useState", "useEffect"]
 excerpt: "React Hooks의 모든 것을 알아보는 완벽한 가이드입니다."
-image: "/images/react-hooks-hero.jpg"
+image: "/images/react-hooks-hero.svg"
 imageAlt: "React Hooks 로고와 예제 코드"
 ---
 

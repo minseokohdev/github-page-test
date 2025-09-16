@@ -2,7 +2,7 @@ import { getPostList as getPosts, getPostBySlug as getPost, getPaginatedPosts as
 import { Post, PaginatedPostsResponse } from '../types';
 
 // 개발 환경에서 동적 로딩을 위한 함수들
-const isDevelopment = import.meta.env.DEV;
+const isDevelopment = typeof window !== 'undefined' && window.location.hostname === 'localhost';
 
 // MD 파일 목록을 가져오는 함수
 export const getPostList = async (): Promise<Post[]> => {

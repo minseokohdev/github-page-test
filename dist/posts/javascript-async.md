@@ -5,7 +5,7 @@ author: "JavaScript 개발자"
 category: "Tech"
 tags: ["JavaScript", "Async", "Promise", "Async/Await"]
 excerpt: "JavaScript의 비동기 프로그래밍 개념과 Promise, async/await 사용법을 완벽하게 정리합니다."
-image: "/images/javascript-async-hero.jpg"
+image: "/images/javascript-async-hero.svg"
 imageAlt: "JavaScript 비동기 프로그래밍 다이어그램"
 ---
 

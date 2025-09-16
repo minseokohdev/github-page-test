@@ -5,7 +5,7 @@ author: "기술 트렌드 분석가"
 category: "Culture"
 tags: ["트렌드", "미래기술", "혁신", "디지털전환"]
 excerpt: "2024년 주요 기술 트렌드와 향후 5년간의 기술 발전 방향을 분석합니다."
-image: "/images/tech-trends-hero.jpg"
+image: "/images/tech-trends-hero.svg"
 imageAlt: "기술 트렌드와 미래 전망 이미지"
 ---
 

@@ -5,7 +5,7 @@ author: "프론트엔드 개발자"
 category: "Tech"
 tags: ["CSS", "Grid", "Layout", "반응형"]
 excerpt: "CSS Grid를 활용한 현대적인 웹 레이아웃 디자인 방법을 알아봅니다."
-image: "/images/css-grid-hero.jpg"
+image: "/images/css-grid-hero.svg"
 imageAlt: "CSS Grid 레이아웃 예제 이미지"
 ---
 
