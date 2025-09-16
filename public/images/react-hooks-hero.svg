@@ -1,0 +1,74 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#61dafb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#21d4fd;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="hookGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#f0f9ff;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 배경 -->
+  <rect width="800" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- React 로고 패턴 -->
+  <defs>
+    <pattern id="reactPattern" width="60" height="60" patternUnits="userSpaceOnUse">
+      <circle cx="30" cy="30" r="25" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+      <circle cx="30" cy="30" r="15" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+      <circle cx="30" cy="30" r="5" fill="rgba(255,255,255,0.1)"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="400" fill="url(#reactPattern)"/>
+  
+  <!-- Hook 카드들 -->
+  <g transform="translate(80, 100)">
+    <!-- useState Hook -->
+    <rect x="0" y="0" width="140" height="100" rx="15" fill="url(#hookGradient)" stroke="white" stroke-width="2"/>
+    <text x="70" y="25" text-anchor="middle" fill="#1e40af" font-family="Arial, sans-serif" font-size="14" font-weight="bold">useState</text>
+    <text x="70" y="45" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="10">const [state, setState]</text>
+    <text x="70" y="60" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="10">= useState(initial)</text>
+    
+    <!-- useEffect Hook -->
+    <rect x="160" y="0" width="140" height="100" rx="15" fill="url(#hookGradient)" stroke="white" stroke-width="2"/>
+    <text x="230" y="25" text-anchor="middle" fill="#1e40af" font-family="Arial, sans-serif" font-size="14" font-weight="bold">useEffect</text>
+    <text x="230" y="45" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="10">useEffect(() => {</text>
+    <text x="230" y="60" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="10">}, [deps])</text>
+    
+    <!-- useReducer Hook -->
+    <rect x="320" y="0" width="140" height="100" rx="15" fill="url(#hookGradient)" stroke="white" stroke-width="2"/>
+    <text x="390" y="25" text-anchor="middle" fill="#1e40af" font-family="Arial, sans-serif" font-size="14" font-weight="bold">useReducer</text>
+    <text x="390" y="45" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="10">const [state, dispatch]</text>
+    <text x="390" y="60" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="10">= useReducer(reducer)</text>
+    
+    <!-- Custom Hook -->
+    <rect x="480" y="0" width="140" height="100" rx="15" fill="url(#hookGradient)" stroke="white" stroke-width="2"/>
+    <text x="550" y="25" text-anchor="middle" fill="#1e40af" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Custom Hook</text>
+    <text x="550" y="45" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="10">function useCustom() {</text>
+    <text x="550" y="60" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="10">return { data, loading }</text>
+  </g>
+  
+  <!-- 함수형 컴포넌트 예제 -->
+  <g transform="translate(150, 230)">
+    <rect x="0" y="0" width="300" height="100" rx="10" fill="rgba(255,255,255,0.9)" stroke="white" stroke-width="2"/>
+    <text x="150" y="20" text-anchor="middle" fill="#1f2937" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Function Component</text>
+    <text x="150" y="40" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="11">function MyComponent() {</text>
+    <text x="150" y="55" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="11">const [count, setCount] = useState(0)</text>
+    <text x="150" y="70" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="11">return &lt;div&gt;{count}&lt;/div&gt;</text>
+    <text x="150" y="85" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="11">}</text>
+  </g>
+  
+  <!-- 제목 -->
+  <text x="400" y="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="32" font-weight="bold">React Hooks</text>
+  
+  <!-- 부제목 -->
+  <text x="400" y="350" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-family="Arial, sans-serif" font-size="16">함수형 컴포넌트의 상태 관리</text>
+  
+  <!-- 장식 요소들 -->
+  <circle cx="60" cy="60" r="3" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="740" cy="80" r="4" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="80" cy="320" r="2" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="720" cy="350" r="3" fill="rgba(255,255,255,0.3)"/>
+</svg>
