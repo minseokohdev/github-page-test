@@ -43,7 +43,7 @@ function buildPosts() {
         category: data.category || 'Tech',
         tags: data.tags || [],
         excerpt: data.excerpt || '',
-        image: data.image || '/images/default-hero.svg',
+        image: data.image ? data.image.replace('/images/', '/github-page-test/images/') : '/github-page-test/images/default-hero.svg',
         imageAlt: data.imageAlt || data.title || '이미지',
         content: content.trim()
       };
