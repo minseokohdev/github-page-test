@@ -30,12 +30,11 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # 선택사항: 마크다운을 빌드하는 스크립트가 없을 수도 있어 실패 방지
-      - name: Build posts from markdown files (optional)
-        run: npm run build:posts || true
+      - name: Build posts from markdown files
+        run: npm run build:posts
 
-      - name: Build project
-        run: npm run build
+      - name: Build project for GitHub Pages
+        run: npm run build:github
 
       # SPA 라우팅용 404.html (리액트/비트 등 클라이언트 라우팅일 때 권장)
       - name: Add SPA fallback

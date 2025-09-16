@@ -1,0 +1,95 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#f8fafc;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 배경 -->
+  <rect width="800" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- 미래적 패턴 -->
+  <defs>
+    <pattern id="futurePattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.1)"/>
+      <path d="M 0 20 L 40 20 M 20 0 L 20 40" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="400" fill="url(#futurePattern)"/>
+  
+  <!-- 기술 트렌드 아이콘들 -->
+  <g transform="translate(100, 120)">
+    <!-- AI 아이콘 -->
+    <rect x="0" y="0" width="100" height="80" rx="15" fill="url(#techGradient)" stroke="white" stroke-width="2"/>
+    <circle cx="50" cy="30" r="15" fill="#3b82f6"/>
+    <text x="50" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">AI</text>
+    <text x="50" y="55" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="10">인공지능</text>
+    
+    <!-- 메타버스 아이콘 -->
+    <rect x="120" y="0" width="100" height="80" rx="15" fill="url(#techGradient)" stroke="white" stroke-width="2"/>
+    <rect x="140" y="20" width="60" height="40" rx="5" fill="#10b981"/>
+    <text x="170" y="35" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">VR</text>
+    <text x="170" y="55" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="10">메타버스</text>
+    
+    <!-- 양자컴퓨팅 아이콘 -->
+    <rect x="240" y="0" width="100" height="80" rx="15" fill="url(#techGradient)" stroke="white" stroke-width="2"/>
+    <circle cx="290" cy="30" r="12" fill="none" stroke="#f59e0b" stroke-width="3"/>
+    <circle cx="290" cy="30" r="6" fill="#f59e0b"/>
+    <text x="290" y="55" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="10">양자컴퓨팅</text>
+    
+    <!-- 6G 아이콘 -->
+    <rect x="360" y="0" width="100" height="80" rx="15" fill="url(#techGradient)" stroke="white" stroke-width="2"/>
+    <path d="M 380 25 L 400 25 L 410 35 L 400 45 L 380 45 L 370 35 Z" fill="#ef4444"/>
+    <text x="390" y="55" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="10">6G 네트워크</text>
+    
+    <!-- 핵융합 아이콘 -->
+    <rect x="480" y="0" width="100" height="80" rx="15" fill="url(#techGradient)" stroke="white" stroke-width="2"/>
+    <circle cx="530" cy="30" r="15" fill="none" stroke="#8b5cf6" stroke-width="3"/>
+    <circle cx="530" cy="30" r="8" fill="#8b5cf6"/>
+    <text x="530" y="55" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="10">핵융합</text>
+  </g>
+  
+  <!-- 트렌드 차트 -->
+  <g transform="translate(150, 230)">
+    <rect x="0" y="0" width="300" height="100" rx="10" fill="rgba(255,255,255,0.9)" stroke="white" stroke-width="2"/>
+    <text x="150" y="20" text-anchor="middle" fill="#1f2937" font-family="Arial, sans-serif" font-size="14" font-weight="bold">기술 발전 트렌드</text>
+    
+    <!-- 차트 라인 -->
+    <path d="M 30 80 L 80 60 L 130 40 L 180 30 L 230 25 L 280 20" stroke="#3b82f6" stroke-width="3" fill="none"/>
+    
+    <!-- 데이터 포인트들 -->
+    <circle cx="30" cy="80" r="4" fill="#3b82f6"/>
+    <circle cx="80" cy="60" r="4" fill="#3b82f6"/>
+    <circle cx="130" cy="40" r="4" fill="#3b82f6"/>
+    <circle cx="180" cy="30" r="4" fill="#3b82f6"/>
+    <circle cx="230" cy="25" r="4" fill="#3b82f6"/>
+    <circle cx="280" cy="20" r="4" fill="#3b82f6"/>
+    
+    <!-- 라벨 -->
+    <text x="30" y="95" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="8">2020</text>
+    <text x="280" y="95" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="8">2030</text>
+  </g>
+  
+  <!-- 제목 -->
+  <text x="400" y="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="32" font-weight="bold">Tech Trends</text>
+  
+  <!-- 부제목 -->
+  <text x="400" y="80" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-size="18">미래 기술의 방향</text>
+  
+  <!-- 장식 요소들 -->
+  <circle cx="60" cy="60" r="3" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="740" cy="100" r="4" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="80" cy="320" r="2" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="720" cy="350" r="3" fill="rgba(255,255,255,0.3)"/>
+  
+  <!-- 미래적 장식 라인들 -->
+  <path d="M 0 200 L 100 200" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  <path d="M 700 200 L 800 200" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  <path d="M 0 300 L 150 300" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <path d="M 650 300 L 800 300" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+</svg>
